@@ -1,0 +1,604 @@
+
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .social img {
+        width: 4em;
+    }
+    
+    .social a {
+        height: 4em;
+        width: 4em;
+    }
+
+    
+    .skills a {
+        padding: 0.75em;
+        height: 7.5em;
+        width: 7.5em;
+        background-color: #d43644;
+        border:#d43644 none 0.5em;
+        border-radius: 500em;
+        margin: 0.5em;
+    }
+
+    .skills img {
+        margin: auto;
+        width: 7.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .box p {
+        font-size: 1.5em
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    textarea {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: 2em;
+    }
+
+    nav .buttons {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+        background: rgb(52, 59, 59);
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    ul li {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    ul li a {
+        padding: 1em;
+        font-size: 2.5em;
+        display: block;
+        text-align: center;
+        background: rgb(52, 59, 59);
+    }
+
+    nav .navbuttons {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 10%;
+        cursor: pointer;
+    }
+
+    nav .navbuttons #times {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #bars {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #times {
+        display: block;
+    }
+
+    #check:checked ~ nav ul {
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 95%;
+    }
+    
+    input[type="email"] {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .container .box {
+        width: 15em;
+    }
+
+    nav .logo {
+        margin: 0.5em;
+        width: 6em;
+    }
+
+    .body {
+        font-size: 1.5em;
+    }
+    
+
+    nav #bars {
+        font-size: 6em;
+    }
+
+    nav #times {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .social img {
+        width: 4em;
+    }
+    
+    .social a {
+        height: 4em;
+        width: 4em;
+    }
+    .skills a {
+        padding: 0.75em;
+        height: 7.5em;
+        width: 7.5em;
+        background-color: #d43644;
+        border:#d43644 none 0.5em;
+        border-radius: 500em;
+        margin: 0.5em;
+    }
+
+    .skills img {
+        margin: auto;
+        width: 7.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .box p {
+        font-size: 1.5em
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    textarea {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: 2em;
+    }
+
+    nav .buttons {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+        background: rgb(52, 59, 59);
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    ul li {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    ul li a {
+        padding: 1em;
+        font-size: 2.5em;
+        display: block;
+        text-align: center;
+        background: rgb(52, 59, 59);
+    }
+
+    nav .navbuttons {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 10%;
+        cursor: pointer;
+    }
+
+    nav .navbuttons #times {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #bars {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #times {
+        display: block;
+    }
+
+    #check:checked ~ nav ul {
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 95%;
+    }
+    
+    input[type="email"] {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .container .box {
+        width: 15em;
+    }
+
+    nav .logo {
+        margin: 0.5em;
+        width: 6em;
+    }
+
+    .body {
+        font-size: 1.5em;
+    }
+    
+
+    nav #bars {
+        font-size: 6em;
+    }
+
+    nav #times {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .social img {
+        width: 4em;
+    }
+    
+    .social a {
+        height: 4em;
+        width: 4em;
+    }
+    .skills a {
+        padding: 0.75em;
+        height: 7.5em;
+        width: 7.5em;
+        background-color: #d43644;
+        border:#d43644 none 0.5em;
+        border-radius: 500em;
+        margin: 0.5em;
+    }
+
+    .skills img {
+        margin: auto;
+        width: 7.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .box p {
+        font-size: 1.5em
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    textarea {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: 2em;
+    }
+
+    nav .buttons {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+        background: rgb(52, 59, 59);
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    ul li {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    ul li a {
+        padding: 1em;
+        font-size: 2.5em;
+        display: block;
+        text-align: center;
+        background: rgb(52, 59, 59);
+    }
+
+    nav .navbuttons {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 10%;
+        cursor: pointer;
+    }
+
+    nav .navbuttons #times {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #bars {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #times {
+        display: block;
+    }
+
+    #check:checked ~ nav ul {
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 95%;
+    }
+    
+    input[type="email"] {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .container .box {
+        width: 15em;
+    }
+
+    nav .logo {
+        margin: 0.5em;
+        width: 6em;
+    }
+
+    .body {
+        font-size: 1.5em;
+    }
+    
+
+    nav #bars {
+        font-size: 6em;
+    }
+
+    nav #times {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .social img {
+        width: 4em;
+    }
+    
+    .social a {
+        height: 4em;
+        width: 4em;
+    }
+    .skills a {
+        padding: 0.75em;
+        height: 7.5em;
+        width: 7.5em;
+        background-color: #d43644;
+        border:#d43644 none 0.5em;
+        border-radius: 500em;
+        margin: 0.5em;
+    }
+
+    .skills img {
+        margin: auto;
+        width: 7.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .box p {
+        font-size: 1.5em
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    textarea {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: 2em;
+    }
+
+    nav .buttons {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+        background: rgb(52, 59, 59);
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    ul li {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    ul li a {
+        padding: 1em;
+        font-size: 2.5em;
+        display: block;
+        text-align: center;
+        background: rgb(52, 59, 59);
+    }
+
+    nav .navbuttons {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 10%;
+        cursor: pointer;
+    }
+
+    nav .navbuttons #times {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #bars {
+        display: none;
+    }
+
+    #check:checked ~ nav .navbuttons #times {
+        display: block;
+    }
+
+    #check:checked ~ nav ul {
+        display: block;
+    }
+
+    input[type="text"] {
+        width: 95%;
+    }
+    
+    input[type="email"] {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .container .box {
+        width: 15em;
+    }
+
+    nav .logo {
+        margin: 0.5em;
+        width: 6em;
+    }
+
+    .body {
+        font-size: 1.5em;
+    }
+    
+
+    nav #bars {
+        font-size: 6em;
+    }
+
+    nav #times {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+    
+  }

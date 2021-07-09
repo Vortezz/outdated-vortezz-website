@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(52, 59, 59);
+    color: white;
+}
+
+nav {
+    background-color: rgb(52, 59, 59);
+}
+
+footer hr {
+    border-color: white;
+}

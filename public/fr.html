@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Vortezz</title>
+    <link rel="icon" type="image/png"
+        href="https://yt3.ggpht.com/ytc/AAUvwngadnwtpNz7a24R1llTM6k6uuphpJj-KtTK7A3Jeg=s176-c-k-c0x00ffffff-no-rj">
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <link rel="stylesheet" href="/public/assets/css/style.css">
+    <link rel="stylesheet" href="/public/assets/css/medias.css">
+    <link id="theme" rel="stylesheet" href="/public/assets/css/darkTheme.css">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/ba42a04b64.js" crossorigin="anonymous"></script>
+    <meta name="author" content="Vortezz">
+    <meta name="description" content="Site de Vortezz ! Developpement & plus !">
+    <meta name="keywords" content="development, Vortezz">
+    <meta property="og:title" content="Vortezz" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vortezz.fr" />
+    <meta property="og:image" content="http://node.vortezz.fr:7000/public/assets/picture/logo.jpg" />
+    <meta property="og:description" content="Site de Vortezz ! Developpement & plus !" />
+    <meta name="theme-color" content="#d43644">
+</head>
+
+<body id="body">
+    <input type="checkbox" id="check">
+    <nav>
+        <ul>
+            <li><a href="#me">A propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href=""><img src="/public/assets/picture/logo.jpg" class="logo"></a>
+        <a href="#me" class="buttons">A propos</a>
+        <a href="#projects" class="buttons">Projets</a>
+        <a href="#skills" class="buttons">Compétences</a>
+        <a href="#contact" class="buttons">Contact</a>
+        <label for="check" class="navbuttons">
+            <span class="fas fa-bars" id="bars"></span>
+            <span class="fas fa-times" id="times"></span>
+        </label>
+    </nav>
+    <br><br><br><br>
+
+    <div id="me">
+        <h1>A propos :</h1>
+        <hr>
+        <div class="text">
+            <p>Bonjour, je suis <strong>Vortezz</strong> et j'ai <span id="age"></span> ans ! Depuis 2019 je fais du
+                développement sous plusieurs formes. Mes compétences
+                de développement sont disponibles <a href="#skills">ici</a></p>
+        </div>
+        <br>
+        <div class="social">
+            <a href="/twitter/" target="_blank"><img src="/public/assets/picture/twitter.png" /></a>
+            <a href="/github/" target="_blank"><img src="/public/assets/picture/github.png" /></a>
+            <a href="/discord/" target="_blank"><img src="/public/assets/picture/discord.png" /></a>
+        </div>
+    </div>
+    <br>
+    <div id="projects">
+        <h1>Projets :</h1>
+        <hr>
+        <div class="text">
+            <p>Voici mes projets en cours de développement ou finis !</p>
+        </div>
+        <br>
+        <div class="container">
+            <a class="box" href="https://github.com/Vortezz/TownyNodeAPI" target="_blank">
+                <h1>TownyAPI</h1><img src="/public/assets/picture/github.png"></img>
+                <p>API Permettant aux joueurs de récupérer leurs informations sur le plugin Towny</p>
+            </a>
+
+        </div>
+    </div>
+    <a href="#me" id="scroll"><img src="/public/assets/picture/svg/up.svg"></a>
+    <br>
+    <div id="skills">
+        <h1>Compétences :</h1>
+        <hr>
+        <h2>Langages :</h2>
+        <div class="skills">
+            <a href="https://www.w3.org/html/" target="_blank"><img
+                    src="/public/assets/picture/languages/html.png" /></a>
+            <a href="https://javascript.com" target="_blank"><img src="/public/assets/picture/languages/js.png" /></a>
+            <a href="https://www.w3.org/css/" target="_blank"><img src="/public/assets/picture/languages/css.png" /></a>
+            <a href="https://sass-lang.com/" target="_blank"><img src="/public/assets/picture/languages/sass.png" /></a>
+            <a href="https://vuejs.org/" target="_blank"><img src="/public/assets/picture/languages/vue.png" /></a>
+            <a href="https://flutter.dev/" target="_blank"><img
+                    src="/public/assets/picture/languages/flutter.png" /></a>
+            <a href="https://php.net/" target="_blank"><img src="/public/assets/picture/languages/php.png" /></a>
+            <a href="https://java.com/" target="_blank"><img src="/public/assets/picture/languages/java.png" /></a>
+            <a href="https://python.org/" target="_blank"><img src="/public/assets/picture/languages/python.png" /></a>
+            <a href="https://nodejs.org/" target="_blank"><img src="/public/assets/picture/languages/node.png" /></a>
+            <a href="https://dart.dev/" target="_blank"><img src="/public/assets/picture/languages/dart.png" /></a>
+            <a href="https://mysql.com/" target="_blank"><img src="/public/assets/picture/languages/sql.png" /></a>
+            <a href="https://firebase.com/" target="_blank"><img
+                    src="/public/assets/picture/languages/firebase.png" /></a>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>Contact :</h1>
+        <hr>
+        <form method="POST" action="">
+            <input type="email" id="email" required name="email" placeholder="Mail">
+            <input type="text" id="subject" required name="subject" placeholder="Sujet">
+            <textarea type="text" id="message" required name="message" placeholder="Message"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <br>
+    <svg class="wave-up" viewBox="0 0 1920 150">
+        <path fill="#d43644"
+            d="M0,839.73l218.51,52.53a1317.14,1317.14,0,0,0,577.9,8.52h0a1442.61,1442.61,0,0,1,583.31-1.69l67.48,13.73A958.81,958.81,0,0,0,1920,889.73h0V1080H0Z"
+            transform="translate(0.5 -839.1)" />
+    </svg>
+    <footer>
+        <p>Le code de ce site est sur <a href="https://github.com/Vortezz/website" target="_blank">Github</a> ! Vous
+            avez trouvé un bug
+            ? Envoyez le <a href="https://github.com/Vortezz/website/issues" target="_blank">ici</a> !</p>
+        <div><a href="/en/"><img class="lang" src="/public/assets/picture/english.png"></a><a rel="license"
+                href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img
+                    alt="Licence Creative Commons" style="border-width:0; width: 5em; display: block;"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></div>
+        <p>Ce site est sous license <a rel="license" class="license"
+                href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons 4.0
+                International</a></p>
+    </footer>
+</body>
+<script type="text/javascript" src="/public/assets/js/easter.js"></script>
+<script type="text/javascript" src="/public/assets/js/age.js"></script>
+<script type="text/javascript" src="/public/assets/js/functions.js"></script>

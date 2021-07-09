@@ -1,0 +1,447 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 59, 59);
+}
+#js img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+footer {
+    background-color: #d43644;
+    margin-top: -1.1em;
+    margin: -0.5em;
+    margin-bottom: -2em;
+}
+
+footer div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+
+footer .lang {
+    vertical-align: middle;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    margin: auto;
+    font-size: 1.25em;
+    width: 100%;
+    font-style: normal;
+    margin: -0.5em;
+    padding: 1em;
+    z-index: 10;
+    background-color: rgb(52, 59, 59);
+}
+
+nav .logo {
+    width: 2.25em;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+}
+
+.lang {
+    width: 3em;
+    border-radius: 10%;
+}
+
+nav #navbutton {
+    margin: auto;
+    width: 2.25em;
+    display: none;
+}
+
+ul {
+  list-style: none;
+  display: none;
+  margin-top: 2.5em;
+  background-color: rgb(52, 59, 59);
+  margin-left: -50px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    margin: -5%;
+    padding: 0.5em;
+}
+
+nav .buttons {
+    padding: 8px 12px;
+    vertical-align: middle;
+    display: flex;
+    position: relative;
+    margin-right: 5em;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+nav .buttons:hover {
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+nav .navbuttons {
+    position: relative;
+    margin: auto;
+    display: none;
+}
+
+nav .navbuttons span {
+    color: #fff;
+    position: relative;
+    font-size: 35px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#age {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#theme-icon {
+    color: white;
+}
+
+.wave-up {
+    margin-bottom: -1.8em;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+}
+
+#me {
+    padding-top: 50px;
+    margin-top: -50px;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: white;
+}
+
+#me p {
+    margin: 0.5em;
+    padding: 0.5em;
+    display:inline-block;
+    margin: auto;
+}
+
+#me hr {
+    border:#d43644 solid 0.25em;
+    border-radius: 50px;
+}
+
+#me h1 {
+    margin-left: 1em;
+}
+
+#skills h1 {
+    margin-left: 1em;
+}
+
+#skills {
+    padding-top: 50px;
+    margin-top: -50px;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#skills p {
+    margin: 0.5em;
+    padding: 0.5em;
+    display:inline-block;
+    margin: auto;
+}
+
+#skills hr {
+    border:#d43644 solid 0.25em;
+    border-radius: 50px;
+}
+
+#skills h1 {
+    margin-left: 1em;
+}
+
+#contact {
+    padding-top: 50px;
+    margin-top: -50px;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#contact p {
+    margin: 0.5em;
+    padding: 0.5em;
+    display:inline-block;
+    margin: auto;
+}
+
+#contact hr {
+    border:#d43644 solid 0.25em;
+    border-radius: 50px;
+}
+
+#contact h1 {
+    margin-left: 1em;
+}
+
+#projects {
+    padding-top: 50px;
+    margin-top: -50px;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#projects p {
+    padding: 0.5em;
+    display:inline-block;
+    margin: auto;
+}
+
+.text a {
+    color: #d43644;
+}
+
+#projects hr {
+    border:#d43644 solid 0.25em;
+    border-radius: 50px;
+}
+
+#projects a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#projects a h1 {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.slider-picture {
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social img {
+    margin: auto;
+    width: 2em;
+}
+
+.social a {
+    padding: 0.5em;
+    height: 2em;
+    width: 2em;
+    background-color: #d43644;
+    border:#d43644 none 1em;
+    border-radius: 500em;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skills img {
+    margin: auto;
+    width: 5em;
+}
+
+.skills a {
+    padding: 1em;
+    height: 5em;
+    width: 5em;
+    background-color: #d43644;
+    border:#d43644 none 1em;
+    border-radius: 500em;
+    margin: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .box {
+    text-align: center;
+    width: 12em;
+    padding: 0.75em;
+    background-color: #d43644;
+    border:#d43644 none 0em;
+    border-radius: 3em;
+}
+
+.container .box img {
+    width: 10em;
+}
+
+.container .box h1 {
+    text-align: justify;
+    color: white;
+}
+
+.container .box a {
+    color: white;
+}
+
+#scroll {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: fixed;
+    bottom : -3em;
+    right: 3em;
+    transition:all ease-in 0.3s;
+    opacity: 0;
+}
+
+#scroll.visible {
+    bottom : 3em;
+    opacity: 1;
+}
+
+#scroll.invisible {
+    bottom : -3em;
+    opacity: 0;
+}
+
+#scroll img {
+    margin: auto;
+    width: 3em;
+}
+
+.error {
+    position: fixed;
+    width: 75%;
+    height: 30%;
+    top: 35%;
+    right: 12.5%;
+}
+
+.error h1 {
+    font-size: 10em;
+    padding: -10em;
+}
+
+#contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    background: rgb(52, 59, 59);
+    border-color: #d43644;
+    border-width: 0.3em;
+    border-radius: 10em;
+    border-style: solid;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 1em;
+    outline: none;
+}
+
+input[type="text"] {
+    width: 40%;
+}
+
+input[type="email"] {
+    width: 40%;
+    background: transparent;
+    transition: all 250ms ease-in-out;
+}
+
+input[type="email"]:not(:focus):invalid {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+
+input[type="text"]:not(:focus):invalid {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+
+textarea:not(:focus):invalid {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+}
+
+textarea {
+    background-color: rgb(52, 59, 59);
+    border-color: #d43644;
+    border-width: 0.3em;
+    border-radius: 2.5em;
+    border-style: solid;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    margin: 1em;
+    width: 95%;
+    height: 15em;
+    outline: none;
+}
+
+.error img {
+    width: 50%;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
